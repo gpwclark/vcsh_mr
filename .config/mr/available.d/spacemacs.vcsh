@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/spacemacs.git]
-checkout = vcsh clone git://github.com/gpwclark/spacemacs.git spacemacs
+checkout = vcsh clone https://github.com/gpwclark/spacemacs.git spacemacs
