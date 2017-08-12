@@ -1,0 +1,3 @@
+
+[$HOME/.config/vcsh/repo.d/gitconf.git]
+checkout = vcsh clone https://github.com/gpwclark/gitconf.git tmux
