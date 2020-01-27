@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/zsh.git]
-checkout = vcsh clone https://github.com/gpwclark/zsh.git zsh
+checkout = vcsh clone git@github.com:gpwclark/zsh.git zsh

@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/systemd.git]
-checkout = vcsh clone https://github.com/gpwclark/systemd.git systemd
+checkout = vcsh clone git@github.com:gpwclark/systemd.git systemd
