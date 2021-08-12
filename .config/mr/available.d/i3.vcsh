@@ -1,2 +1,0 @@
-[$HOME/.config/vcsh/repo.d/i3.git]
-checkout = vcsh clone git@github.com:gpwclark/i3.git i3
