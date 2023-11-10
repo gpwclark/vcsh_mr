@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/nix.git]
+checkout = vcsh clone git@github.com:gpwclark/nix.git nix

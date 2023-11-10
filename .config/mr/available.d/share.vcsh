@@ -1,2 +1,0 @@
-[$HOME/.config/vcsh/repo.d/share.git]
-checkout = vcsh clone git@bitbucket.org:price_clark/share-config.git share
