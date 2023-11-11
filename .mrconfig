@@ -7,11 +7,11 @@ include = cat ~/.config/mr/config.d/*
 [development/st]
 checkout = git clone 'git@github.com:gpwclark/st.git' 'st'
 
-[development/dev_stuff]
-checkout = git clone 'git@bitbucket.org:price_clark/dev_stuff.git' 'dev_stuff'
-
 [development/vcsh_mr]
 checkout = git clone 'git@github.com:gpwclark/vcsh_mr.git' 'vcsh_mr'
+
+[development/sl-sh-dev/so-lush]
+checkout = git clone 'git@github.com:gpwclark/so-lush.git' 'so-lush'
 
 [development/sl-sh-dev/sl-sh]
 checkout = git clone 'git@github.com:sl-sh-dev/sl-sh.git' 'sl-sh'
