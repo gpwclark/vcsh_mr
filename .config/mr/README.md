@@ -12,6 +12,8 @@
 	- git push origin master
 	- exit
 
+    ! don't forget about `vcsh foreach add -u` and ``vcsh foreach status -uno` # to ignore untracked files
+
 - settuing up a new machine
 1. install mr and vcsh
 2. 
