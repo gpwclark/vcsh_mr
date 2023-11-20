@@ -2,9 +2,9 @@
 
 - mr gitGUIDE 1: http://www.linuxjournal.com/content/manage-your-configs-vcsh?page=0,2
 
-- GUIDE 2: http://www.geoffcorey.com/2015/03/managing-dotfiles-across-multiple-platforms/
+- GUIDE 2: https://web.archive.org/web/20151009043051/http://www.geoffcorey.com/2015/03/managing-dotfiles-across-multiple-platforms/
 - initializing a vcsh repo
-	- 
+	-  vcsh init <proj>
 - adding stuff to extant vcsh repo
 	-     vcsh enter vim
 	- git add <the_file> # e.g. .vimrc
