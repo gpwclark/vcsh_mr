@@ -5,31 +5,31 @@ jobs = 5
 include = cat ~/.config/mr/config.d/*
 
 [development/website-monorepo]
-checkout = git clone 'git@bitbucket.org:price_clark/website-monorepo.git'
+checkout = git clone --branch 'master' 'git@bitbucket.org:price_clark/website-monorepo.git'
 
 [development/st]
-checkout = git clone 'git@github.com:gpwclark/st.git' 'st'
+checkout = git clone --branch 'main' 'git@github.com:gpwclark/st.git' 'st'
 
 [development/vcsh_mr]
-checkout = git clone 'git@github.com:gpwclark/vcsh_mr.git' 'vcsh_mr'
+checkout = git clone --branch 'main' 'git@github.com:gpwclark/vcsh_mr.git' 'vcsh_mr'
 
 [development/sl-sh-dev/so-lush]
-checkout = git clone 'git@github.com:gpwclark/so-lush.git' 'so-lush'
+checkout = git clone --branch 'main' 'git@github.com:gpwclark/so-lush.git' 'so-lush'
 
 [development/sl-sh-dev/sl-sh]
 checkout = git clone --branch 'price-master-pre-slosh' 'git@github.com:sl-sh-dev/sl-sh.git' 'sl-sh'
 
 [development/sl-sh-dev/slosh]
-checkout = git clone 'git@github.com:sl-sh-dev/sl-sh.git' 'slosh'
+checkout = git clone --branch 'master' 'git@github.com:sl-sh-dev/sl-sh.git' 'slosh'
 
 [development/sl-sh-dev/sl-sh-proc-macros]
-checkout = git clone 'git@github.com:sl-sh-dev/sl-sh-proc-macros.git' 'sl-sh-proc-macros'
+checkout = git clone --branch 'main' 'git@github.com:sl-sh-dev/sl-sh-proc-macros.git' 'sl-sh-proc-macros'
 
 [development/sl-sh-dev/sl-console]
-checkout = git clone 'git@github.com:sl-sh-dev/sl-console.git' 'sl-console'
+checkout = git clone --branch 'master' 'git@github.com:sl-sh-dev/sl-console.git' 'sl-console'
 
 [development/sl-sh-dev/sl-liner]
-checkout = git clone 'git@github.com:sl-sh-dev/sl-liner.git' 'sl-liner'
+checkout = git clone --branch 'master' 'git@github.com:sl-sh-dev/sl-liner.git' 'sl-liner'
 
 [development/sl-sh-dev/sl-db]
-checkout = git clone 'https://github.com/sl-sh-dev/sl-db' 'sl-db'
+checkout = git clone --branch 'main' 'https://github.com/sl-sh-dev/sl-db' 'sl-db'
