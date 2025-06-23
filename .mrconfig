@@ -20,7 +20,7 @@ checkout = git clone --branch 'main' 'git@github.com:gpwclark/so-lush.git' 'so-l
 checkout = git clone --branch 'price-master-pre-slosh' 'git@github.com:sl-sh-dev/sl-sh.git' 'sl-sh'
 
 [development/sl-sh-dev/slosh]
-checkout = git clone --branch 'master' 'git@github.com:sl-sh-dev/sl-sh.git' 'slosh'
+checkout = git clone --branch 'main' 'git@github.com:sl-sh-dev/sl-sh.git' 'slosh'
 
 [development/sl-sh-dev/sl-sh-proc-macros]
 checkout = git clone --branch 'main' 'git@github.com:sl-sh-dev/sl-sh-proc-macros.git' 'sl-sh-proc-macros'
@@ -33,3 +33,6 @@ checkout = git clone --branch 'master' 'git@github.com:sl-sh-dev/sl-liner.git' '
 
 [development/sl-sh-dev/sl-db]
 checkout = git clone --branch 'main' 'https://github.com/sl-sh-dev/sl-db' 'sl-db'
+
+[development/prose]
+checkout = git clone --branch 'main' 'git@github.com:gpwclark/prose.git' 'prose'
