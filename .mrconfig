@@ -1,6 +1,7 @@
 [DEFAULT]
 git_gc = git gc "$@"
 jobs = 5
+pre_pull = echo "Update Repo: ${MR_REPO}"
 
 include = cat ~/.config/mr/config.d/*
 
@@ -36,3 +37,6 @@ checkout = git clone --branch 'main' 'https://github.com/sl-sh-dev/sl-db' 'sl-db
 
 [development/prose]
 checkout = git clone --branch 'main' 'git@github.com:gpwclark/prose.git' 'prose'
+
+[development/flox/floxenvs]
+checkout = git clone 'https://github.com/flox/floxenvs/' 'floxenvs'
