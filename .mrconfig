@@ -40,3 +40,6 @@ checkout = git clone --branch 'main' 'git@github.com:gpwclark/prose.git' 'prose'
 
 [development/flox/floxenvs]
 checkout = git clone 'https://github.com/flox/floxenvs/' 'floxenvs'
+
+[development/git-subtree]
+checkout = git clone 'https://github.com/apenwarr/git-subtree/' 'git-subtree'
