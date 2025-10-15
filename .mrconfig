@@ -49,3 +49,6 @@ checkout = git clone 'git@github.com:terelprime/price-know.git' 'know-price'
 
 [development/BLOG]
 checkout = git clone 'git@github.com:gpwclark/prose.git' 'BLOG'
+
+[.emacs.d]
+checkout = git clone 'https://github.com/syl20bnr/spacemacs' '.emacs.d'
